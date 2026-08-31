@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/todo_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="4dp">
+
+    <!-- ImageView only: CheckBox is not supported in collection RemoteViews
+         and keeps every row stuck on "Loading...". -->
+    <ImageView
+        android:id="@+id/todo_checkbox"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_widget_check_off" />
+
+    <TextView
+        android:id="@+id/todo_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="#1A2A24"
+        android:textSize="16sp" />
+</LinearLayout>

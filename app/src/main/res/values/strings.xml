@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">360 Me</string>
+    <string name="widget_name">360 Me · Día</string>
+    <string name="widget_description">Frase del día, compromisos y accesos rápidos</string>
+    <string name="widget_loading">Cargando 360 Me…</string>
+    <string name="widget_add_post">Post</string>
+    <string name="widget_add_exam">Examen</string>
+    <string name="widget_phrase_label">Frase del día</string>
+    <string name="widget_commitments_label">Compromisos</string>
+    <string name="widget_add_todo">Agregar</string>
+    <string name="widget_todos_empty">Toca + para agregar</string>
+</resources>
